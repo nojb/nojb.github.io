@@ -9,23 +9,24 @@
 
   <body>
 
-    <header>
-      <h1>Nicol&aacute;s Ojeda B&auml;r</h1>
-    </header>
+    <div id="container">
 
-    <div id="nav">
-      <div style="float:left">
-        <a onclick="change('about')" href="#">ABOUT</a>
+      <div id="header">
+        <h1>Nicol&aacute;s Ojeda B&auml;r</h1>
       </div>
-      <div style="margin: 0 auto">
-        <a onclick="change('code')" href="#">CODE</a>
-      </div>
-      <div style="float:right">
-        <a onclick="change('math')" href="#">MATH</a>
-      </div>
-    </div>
 
-    <div id="content">
+      <div id="nav">
+        <div style="float:left">
+          <a onclick="change('about')" href="#">ABOUT</a>
+        </div>
+        <div style="margin: 0 auto">
+          <a onclick="change('code')" href="#">CODE</a>
+        </div>
+        <div style="float:right">
+          <a onclick="change('math')" href="#">MATH</a>
+        </div>
+      </div>
+
       <div id="about" class="section">
         <p>
           I am a mathematician living in Paris.
@@ -37,10 +38,10 @@
           the <a href="https://math.uchicago.edu">University of Chicago</a>.  In
           2009 I shifted to <a href="http://www.math.harvard.edu">Harvard</a>
           when my advisor moved there.  I did my <a href="#"
-          onclick="change('math')">thesis</a> on number theory and obtained a
+                                                    onclick="change('math')">thesis</a> on number theory and obtained a
           PhD in pure mathematics in 2012.  After three years as a mathematics
           postdoc at the <a href="https://www.dpmms.cam.ac.uk">University of
-          Cambridge</a> I left academia and started working as a functional
+            Cambridge</a> I left academia and started working as a functional
           programmer writing OCaml code
           at <a href="https://www.lexifi.com">LexiFi</a> in Paris.
         </p>
@@ -64,16 +65,16 @@
         <p>
           My PhD research was
           on <a href="https://en.wikipedia.org/wiki/P-adic_Hodge_theory">p-adic
-          Hodge theory</a>, an area of number theory.  Here you will find my
+            Hodge theory</a>, an area of number theory.  Here you will find my
           thesis and some course notes.  If you have any comments, corrections,
           etc. please make sure to <a href="mailto:n.oje.bar@gmail.com">let me
-          know</a>.
+            know</a>.
         </p>
 
         <dl>
           <dt>
             <a href="files/thesis.pdf">Towards the cohomological construction of
-            Breuil-Kisin modules</a>
+              Breuil-Kisin modules</a>
           </dt>
           <dd>
             <p>
@@ -148,7 +149,7 @@
               A compiler from the <a href="http://c0.typesafety.net">C0</a>
               programming language
               to <a href="https://docs.oracle.com/javase/specs/jvms/se8/html/index.html">JVM
-              bytecode</a>.  Proof of concept.  It is able to compile and run
+                bytecode</a>.  Proof of concept.  It is able to compile and run
               some simple straight line programs (no control flow, complex data
               structures or functions).  Supports source-level debug
               information.  No dependencies.
@@ -160,9 +161,9 @@
             <p>
               An OCaml binding generator
               for <a href="https://developers.google.com/apis-explorer">Google
-              APIs</a> based on Google API
+                APIs</a> based on Google API
               <a href="https://developers.google.com/discovery/">Discovery
-              Service</a>.  Is able to generate bindings for the Gmail API.
+                Service</a>.  Is able to generate bindings for the Gmail API.
               Work in progress.
             </p>
           </dd>
@@ -241,7 +242,7 @@
             <p>
               OCaml implementation of
               the <a href="https://wiki.theory.org/BitTorrentSpecification">BitTorrent
-              protocol</a>.  Currently being rewritten.  UTP and DHT support
+                protocol</a>.  Currently being rewritten.  UTP and DHT support
               via <a href="#ocaml-utp">ocaml-utp</a>
               and <a href="#ocaml-dht">ocaml-dht</a>.
             </p>
@@ -315,7 +316,7 @@
             <p>
               OCaml bindings for
               the <a href="http://www.gnu.org/software/gsasl/">GNU SASL
-              library</a>.  Available on OPAM.
+                library</a>.  Available on OPAM.
             </p>
           </dd>
 
@@ -369,7 +370,7 @@
               A <a href="http://okmij.org/ftp/ML/MetaOCaml.html">MetaOCaml</a>-staged
               interpreter
               of <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">R5RS
-              Scheme</a>.  Based on
+                Scheme</a>.  Based on
               the <a href="https://github.com/felix-lang/ocs">ocs</a> Scheme
               interpreter.  Probably needs updating to compile with the current
               MetaOCaml version.
@@ -377,7 +378,7 @@
           </dd>
 
           <!-- <dt><a href="https://github.com/nojb/ocaml-c0">ocaml-c0</a></dt>
-          -->
+            -->
           <!-- <dd> -->
           <!--   <p> -->
           <!--     TBA -->
@@ -396,12 +397,11 @@
           <!-- <dt>llvm-pure-tiger ?</dt> -->
         </dl>
       </div>
+      <div id="footer">
+        <p>
+          Copyright &copy; 2015 Nicol&aacute;s Ojeda B&auml;r
+        </p>
+      </div>
     </div>
-    <footer>
-      <p>
-        Copyright &copy; 2015 Nicol&aacute;s Ojeda B&auml;r
-      </p>
-    </footer>
-
   </body>
 </html>

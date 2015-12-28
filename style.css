@@ -4,14 +4,14 @@ body {
     background-color: Cornsilk;
     line-height: 130%;
 }
-header {
+#header {
     text-align: center;
     text-transform: uppercase;
     margin-top: 10%;
     margin-bottom: 5%;
     font-size: large;
 }
-footer {
+#footer {
     margin-top: 5%;
     text-align: center;
     font-size: small;
@@ -44,7 +44,7 @@ a:hover, #nav a:hover {
 #nav > div {
     display: inline-block;
 }
-#content {
+#container {
     max-width: 800px;
     width: 75%;
     margin: 0 auto;
