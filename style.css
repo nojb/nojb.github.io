@@ -4,12 +4,13 @@ body {
     background-color: Cornsilk;
     line-height: 130%;
 }
-#header {
+.header {
     text-align: center;
     text-transform: uppercase;
     margin-top: 10%;
-    margin-bottom: 5%;
-    font-size: large;
+    /* margin-bottom: 5%; */
+    font-size: xx-large;
+    font-weight: bold;
 }
 #footer {
     margin-top: 5%;
@@ -51,4 +52,7 @@ a:hover, #nav a:hover {
 }
 dt {
     font-weight: bold;
+}
+dd {
+    margin: 0pt;
 }

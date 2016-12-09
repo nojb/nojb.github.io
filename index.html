@@ -11,23 +11,10 @@
 
     <div id="container">
 
-      <div id="header">
-        <h1>Nicol&aacute;s Ojeda B&auml;r</h1>
-      </div>
+      <div class="header">Nicol&aacute;s Ojeda B&auml;r</div>
 
-      <div id="nav">
-        <div style="float:left">
-          <a onclick="change('about')" href="#">ABOUT</a>
-        </div>
-        <div style="margin: 0 auto">
-          <a onclick="change('code')" href="#">CODE</a>
-        </div>
-        <div style="float:right">
-          <a onclick="change('math')" href="#">MATH</a>
-        </div>
-      </div>
-
-      <div id="about" class="section">
+      <div class="header">About</div>
+      <div class="section">
         <p>
           I am a mathematician living in Paris.
         </p>
@@ -38,10 +25,10 @@
           the <a href="https://math.uchicago.edu">University of Chicago</a>.  In
           2009 I shifted to <a href="http://www.math.harvard.edu">Harvard</a>
           when my advisor moved there.  I did my <a href="#"
-                                                    onclick="change('math')">thesis</a> on number theory and obtained a
+          onclick="change('math')">thesis</a> on number theory and obtained a
           PhD in pure mathematics in 2012.  After three years as a mathematics
           postdoc at the <a href="https://www.dpmms.cam.ac.uk">University of
-            Cambridge</a> I left academia and started working as a functional
+          Cambridge</a> I left academia and started working as a functional
           programmer writing OCaml code
           at <a href="https://www.lexifi.com">LexiFi</a> in Paris.
         </p>
@@ -57,11 +44,15 @@
           </dd>
         </dl>
       </div>
-      <div id="math" class="section" style="display:none;">
+
+      <div class="header">Math</div>
+
+      <div class="section">
         <p>
           I am interested in many different areas of mathematics: algebraic
           geometry, algebra, and number theory.
         </p>
+
         <p>
           My PhD research was
           on <a href="https://en.wikipedia.org/wiki/P-adic_Hodge_theory">p-adic
@@ -95,7 +86,9 @@
           </dd>
         </dl>
       </div>
-      <div id="code" class="section" style="display:none;">
+
+      <div class="header">Code</div>
+      <div class="section">
         <p>
           I am interested in compilers, interpreters, and network protocols.  My
           language of choice is <a href="http://ocaml.org">OCaml</a>.  Here you
@@ -124,12 +117,11 @@
             </p>
           </dd>
 
-          <dt><a href="https://github.com/nojb/riscv-ocamlopt">riscv-ocamlopt</a></dt>
+          <dt><a href="https://github.com/nojb/ocaml-riscv">ocaml-riscv</a></dt>
           <dd>
             <p>
-              A backend for the OCaml native compiler targeting
-              the <a href="http://riscv.org">RISC-V</a> architecture.  Available
-              as an OPAM pin+switch.
+              A full native port of the OCaml systel to
+              the <a href="http://riscv.org">RISC-V</a> architecture.
             </p>
           </dd>
 
