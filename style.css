@@ -1,7 +1,5 @@
 body {
-    /* color: #8B4513; /\* SaddleBrown; *\/ */
     font-family: Helvetica, Arial, sans-serif;
-    /* background-color: Cornsilk; */
     line-height: 130%;
 }
 .header {
@@ -30,13 +28,9 @@ a {
     color: inherit;
     text-decoration: none;
     background-color: yellow;
-    /* border-bottom-width: 1px; */
-    /* border-bottom-style: dotted; */
-    /* border-bottom-color: inherit; */
 }
 a:hover, #nav a:hover {
     background-color: transparent;
-    /* border-bottom-style: solid; */
 }
 /* #container { */
 /*     max-width: 800px; */
