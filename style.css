@@ -1,14 +1,22 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 130%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 130%;
 }
-.header {
+#name, .header {
     text-align: center;
     text-transform: uppercase;
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: xx-large;
     font-weight: bold;
+}
+#name {
+    font-size: 200%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .section {
     /* background-color: red; */
@@ -35,7 +43,6 @@ a:hover {
 /* #container { */
 /*     max-width: 800px; */
 /*     width: 75%; */
-/*     margin: 0 auto; */
 /* } */
 dt {
     font-weight: bold;
