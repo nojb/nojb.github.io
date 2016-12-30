@@ -11,19 +11,34 @@ a {
     color: red;
     text-decoration: none;
 }
-a::before {
+a:hover {
+    text-decoration: underline;
+}
+a:before {
     content: "[";
 }
-a::after {
+a:after {
     content: "]";
 }
 h1 {
     font-size: 250%;
     text-transform: uppercase;
 }
-h1::before {
+h1:before {
     content: "# ";
 }
-h2::before {
+h2:before {
     content: "## ";
+}
+table {
+    display: table;
+}
+row {
+    display: table-row;
+}
+cell {
+    display: table-cell;
+}
+column {
+    display: table-column;
 }
