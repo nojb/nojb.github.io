@@ -2,315 +2,296 @@
 <html>
   <title>Nicol&aacute;s Ojeda B&auml;r</title>
   <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Nicol&aacute;s OJEDA B&Auml;R</h1>
-
-    <p>
-      I am a mathematician, based in Paris, currently working
-      for <a href="https://www.lexifi.com">LexiFi SAS</a>.
-    </p>
-
-    <p>
-      Before that, I did undergraduate studies in Buenos Aires, a PhD in pure
-      mathematics at the <a href="https://math.uchicago.edu">University of
-      Chicago</a> and <a href="http://www.math.harvard.edu">Harvard
-      University</a>, and worked as a postdoctoral researcher at
-      the <a href="https://www.dpmms.cam.ac.uk">University of Cambridge</a>.
-    </p>
-
-    <p>
-      To get in touch, please <a href="mailto:n.oje.bar@gmail.com">send me an
-      email</a>.
-    <p>
-
-    <h2>Math</h2>
-
-    <p>
-      I am interested in many different areas of mathematics: algebraic
-      geometry, algebra, and number theory, etc.
-    </p>
-
-    <p>
-      My PhD research was
-      on <a href="https://en.wikipedia.org/wiki/P-adic_Hodge_theory">p-adic
-      Hodge theory</a>, an area of number theory.  My thesis and some notes are
-      below.  If you have any comments, suggestions, etc. please
-      <a href="mailto:n.oje.bar@gmail.com">send me an email</a>.
-    </p>
-
-    <p>
-    <b>
-      <a href="files/thesis.pdf">Towards the cohomological construction of
-        Breuil-Kisin modules</a>
-    </b>
-      This is my thesis.
-    </p>
-
-    <b>
-      <a href="files/crystalline_cohomology.pdf">A course in crystalline cohomology</a>
-    </b>
-      Notes from a course given in 2013 at the University of Cambridge.
-      The idea was to prove that a strongly divisible module over an
-      unramified base was admissible in the sense of Fontaine by
-      elementary ("de Rham") methods.
-    </p>
-
-    <h2>Code</h2>
-
-    <p>
-      I am interested in programming languages in a (very) broad sense:
-      compilers, interpreters, network protocols, virtual machines, emulation,
-      GUI programming and design, etc.
-    </p>
-
-    <p>
-      Most of my code is written in <a href="http://ocaml.org">OCaml</a> and
-      is <a href="https://github.com/nojb">hosted on Github</a>.
-    </p>
-
-    <p>
-      Below you can see a list of current and past projects.  I like to hack,
-      try new things, and rewrite things often (even old code).  So, CAVEAT
-      EMPTOR: some or all of the code below may not be working at any given
-      moment.
-    </p>
-
-    <p>
-      Any and all comments, questions, etc. are warmly
-      welcome: <a href="mailto:n.oje.bar@gmail.com">send me an email</a>.
-    </p>
-
-    <p>
-    <b><a href="https://nojb.github.io/ocaml-explorer">ocaml-explorer</a></b>
-
-      Inspired by <a href="https://godbolt.org">gcc-explorer</a>.  The OCaml
-      native-code compiler running purely in the browser.  Courtesy
-      of <a href="https://ocsigen.org/js_of_ocaml">js_of_ocaml</a>.  WIP.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/llpp">llpp</a></b>
-
-      A port of the <a href="http://repo.or.cz/w/llpp.git">llpp</a> PDF viewer
-      to Cocoa/OS X.  Beta.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-graphics-osx">ocaml-graphics-osx</a></b>
-
-      A drop-in replacement for the OCaml Graphics module running under
-      OS X/Cocoa.  Experimental stage.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/riscv-ocaml">riscv-ocaml</a></b>
-
-      A full native port of the OCaml systel to
-      the <a href="http://riscv.org">RISC-V</a> architecture.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/tortuga">tortuga</a></b>
-
-      A <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a>
-      implementation in OCaml.  Currently being rewritten.  It uses
-      dynamic binding for variables but static binding for functions.
-      Functorizes over the concrete graphical backend.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/c0-jvm">c0-jvm</a></b>
-
-      A compiler from the <a href="http://c0.typesafety.net">C0</a>
-      programming language
-      to <a href="https://docs.oracle.com/javase/specs/jvms/se8/html/index.html">JVM
-        bytecode</a>.  Proof of concept.  It is able to compile and run
-      some simple straight line programs (no control flow, complex data
-      structures or functions).  Supports source-level debug
-      information.  No dependencies.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/gen_google_api">gen_google_api</a></b>
-
-      An OCaml binding generator
-      for <a href="https://developers.google.com/apis-explorer">Google
-        APIs</a> based on Google API
-      <a href="https://developers.google.com/discovery/">Discovery
-        Service</a>.  Is able to generate bindings for the Gmail API.
-      Work in progress.
-    </p>
-
-    <p><b><a href="https://github.com/mirage/mirage-tcpip">mirage-ipv6</a></b>
-
-      An implementation of the IPv6 protocol for
-      the <a href="https://mirage.io">Mirage</a> TCP/IP stack.  Written
-      during my time at the University of Cambridge.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/bitstring-ppx">bitstring-ppx</a></b>
-
-      A ppx port of
-      the <a href="https://code.google.com/p/bitstring/">ocaml-bitstring</a>
-      library.  Mostly finished but needs more testing.  Not yet
-      available in OPAM.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/llvm-tiger">llvm-tiger</a></b>
-
-      A compiler for
-      the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
-      programming langauge targeting <a href="http://llvm.org">LLVM</a>
-      written in OCaml.  Supports the full langauge.  One pass only.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-libedit">ocaml-libedit</a></b>
-
-      OCaml bindings
-      for <a href="http://thrysoee.dk/editline/">editline</a> library
-      (previously libedit).  Currently in planning/experimental stage.
-    </p>
-
-    <p>
-    <b id="ocaml-utp"><a href="https://github.com/nojb/ocaml-utp">ocaml-utp</a></b>
-
-      OCaml bindings for BitTorrent
-      Inc.'s <a href="https://github.com/bittorrent/libutp">libutp</a>
-      library using <a href="http://ocsigen.org/lwt/">Lwt</a>.  Tries to
-      expose an interface very close to BSD sockets. Mostly working, but
-      needs better error handling and some general polish. It is meant
-      to be used with <a href="#ocaml-bt">ocaml-bt</a>.
-    </p>
-
-    <p>
-    <b id="ocaml-dht"><a href="https://github.com/nojb/ocaml-dht">ocaml-dht</a></b>
-
-      OCaml bindings
-      for <a href="https://github.com/jech/dht">libdht</a>.  Meant to be
-      used with <a href="#ocaml-bt">ocaml-bt</a>.  Available on OPAM.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-imap">ocaml-imap</a></b>
-
-      Pure OCaml implementation
-      of <a href="https://tools.ietf.org/html/rfc3501">IMAP</a> client
-      protocol.  Under development.  Available on OPAM.  It has minimal
-      dependencies and is completely independent of the IO backend used.
-    </p>
-
-    <p>
-    <b id="ocaml-bt"><a href="https://github.com/nojb/ocaml-bt">ocaml-bt</a></b>
-
-      OCaml implementation of
-      the <a href="https://wiki.theory.org/BitTorrentSpecification">BitTorrent
-        protocol</a>.  Currently being rewritten.  UTP and DHT support
-      via <a href="#ocaml-utp">ocaml-utp</a>
-      and <a href="#ocaml-dht">ocaml-dht</a>.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/tiger-interp">tiger-interp</a></b>
-
-      An interpreter for
-      the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
-      programming language written in OCaml.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/llvm-min-caml">llvm-min-caml</a></b>
-
-      An <a href="http://llvm.org">LLVM</a> backend for
-      the <a href="http://esumii.github.io/min-caml/index-e.html">min-caml</a>
-      compiler.  Supports full tail-call optimisation.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/scheme2ml">scheme2ml</a></b>
-
-      An experimental source-to-source translator
-      from <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a>
-      to OCaml.  Was capable of running some moderately-sized tests.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/llvm-bf">llvm-bf</a></b>
-
-      A compiler
-      from <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainf*ck</a>
-      to <a href="http://llvm.org">LLVM</a> written in OCaml.
-    </p>
-
-    <!-- <dt><a href="https://github.com/nojb/unlambda">unlambda</a></dt> -->
-
-    <p><b><a href="https://github.com/nojb/mips-o32-ocamlopt">mips-o32-ocamlopt</a></b>
-
-      A backend for the OCaml native compiler targeting the MIPS 32-bit
-      architecture with the o32 ABI.  The ABI is not a good fit for the
-      OCaml backend machinery so there are some bugs in the handling of
-      native float operations.
-    </p>
-
-    <!-- <dt>herebedragons</dt> -->
-
-    <p><b><a href="https://github.com/nojb/ocaml-gccjit">ocaml-gccjit</a></b>
-
-      OCaml bindings for
-      the <a href="https://gcc.gnu.org/wiki/JIT">libgccjit</a> library.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-gsasl">ocaml-gsasl</a></b>
-
-      OCaml bindings for
-      the <a href="http://www.gnu.org/software/gsasl/">GNU SASL
-        library</a>.  Available on OPAM.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-macaroons">ocaml-macaroons</a></b>
-
-      An experimental OCaml implementation
-      of <a href="http://research.google.com/pubs/pub41892.html">Macaroons</a>.
-      Needs testing.  Available on OPAM.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ppx_ocamllex">ppx_ocamllex</a></b>
-
-      An experimental ppx preprocessor that allows to
-      define <a href="http://caml.inria.fr/pub/docs/manual-ocaml-4.00/manual026.html#toc105">ocamllex</a>
-      lexers directly inside OCaml programs.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-ircd">ocaml-ircd</a></b>
-
-      An overly simplistic IRC server.  Meant as a test-bed
-      for <a href="https://mirage.io">Mirage</a> technologies.
-      Incomplete.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ppx_fbt_trace">ppx_fbt_trace</a></b>
-
-      A ppx version
-      of <a href="https://github.com/avsm/ocaml-fbt-trace">pa_fbt_trace</a>.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/tiger2ml">tiger2ml</a></b>
-
-      A source-to-source translator from
-      the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
-      programming language to OCaml.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/staged-ocs">staged-ocs</a></b>
-
-      A <a href="http://okmij.org/ftp/ML/MetaOCaml.html">MetaOCaml</a>-staged
-      interpreter
-      of <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">R5RS
-        Scheme</a>.  Based on
-      the <a href="https://github.com/felix-lang/ocs">ocs</a> Scheme
-      interpreter.  Probably needs updating to compile with the current
-      MetaOCaml version.
-    </p>
-
-    <p><b><a href="https://github.com/nojb/ocaml-maildir">ocaml-maildir</a></b>
-
-      OCaml library to interact
-      with <a href="https://en.wikipedia.org/wiki/Maildir">Maildir</a>.
-      Available on OPAM.
-    </p>
-
+    <div class="main">
+      <h1>Nicol&aacute;s OJEDA B&Auml;R</h1>
+
+      <p>
+        I am a mathematician currently working
+        at <a href="https://www.lexifi.com">LexiFi</a> in Paris. Before that, I
+        did undergraduate studies at
+        the <a href="http://cms.dm.uba.ar">Universidad de Buenos Aires</a>, a
+        PhD in pure mathematics at
+        the <a href="https://math.uchicago.edu">University of Chicago</a>
+        and <a href="http://www.math.harvard.edu">Harvard University</a>, and
+        worked as a postdoctoral researcher at
+        the <a href="https://www.dpmms.cam.ac.uk">University of Cambridge</a>.
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://github.com/nojb">GitHub</a>
+        </li>
+
+        <li>
+          <a href="mailto:n.oje.bar@gmail.com">Email</a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/nojebar">Twitter</a>
+        </li>
+      </ul>
+
+      <h2>Math</h2>
+
+      <p>
+        I am interested in many different areas of mathematics: algebraic
+        geometry, algebra, and number theory, etc. My PhD research was
+        on <a href="https://en.wikipedia.org/wiki/P-adic_Hodge_theory">p-adic
+        Hodge theory</a>, an area of number theory.  My thesis and some notes
+        are below.
+      </p>
+
+      <ul>
+
+        <li>
+          <a href="files/thesis.pdf">Towards the cohomological construction of
+            Breuil-Kisin modules</a>,
+          my PhD thesis.
+        </li>
+
+        <li>
+          <a href="files/crystalline_cohomology.pdf">A course in crystalline
+          cohomology</a>, notes from a course given in 2013 at the University of
+          Cambridge.  The main objective was to prove that a strongly divisible
+          module over an unramified base was admissible in the sense of Fontaine
+          by <em>de Rham</em> methods.
+        </li>
+
+      </ul>
+
+      <h2>Code</h2>
+
+      <p>
+        I am interested in programming languages in a (very) broad sense:
+        compilers, interpreters, network protocols, virtual machines, emulation,
+        GUI programming, etc. Most of my code is written
+        in <a href="http://ocaml.org">OCaml</a> and
+        <a href="https://github.com/nojb">hosted on Github</a>.
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://github.com/ocaml/ocaml/pulls?utf8=%E2%9C%93&q=author%3Anojb%20">OCaml</a>
+          I am a regular contributor to the OCaml programming language.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/riscv-ocaml">riscv-ocaml</a>, a full
+          port of the OCaml system to the <a href="http://riscv.org">RISC-V</a>
+          architecture.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/llpp">llpp</a>, a port of
+          the <a href="http://repo.or.cz/w/llpp.git">llpp</a> PDF viewer to
+          macOS.
+        </li>
+
+        <li>
+          <a href="https://nojb.github.io/ocaml-explorer">ocaml-explorer</a>,
+          inspired by <a href="https://godbolt.org">gcc-explorer</a>.  The OCaml
+          native-code compiler running purely in the browser.  Made with
+          <a href="https://ocsigen.org/js_of_ocaml">js_of_ocaml</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/mirage/mirage-tcpip">mirage-tcpip</a>, the
+          implementation of the IPv6 protocol in
+          the <a href="https://mirage.io">Mirage</a> TCP/IP stack.  Supported by
+          <a href="http://ocamllabs.io/">OCaml Labs</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-imap">ocaml-imap</a>, pure
+          OCaml implementation
+          of <a href="https://tools.ietf.org/html/rfc3501">IMAP</a> client
+          protocol.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-gccjit">ocaml-gccjit</a>,
+          OCaml bindings for
+          the <a href="https://gcc.gnu.org/wiki/JIT">libgccjit</a> library.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-gsasl">ocaml-gsasl</a>,
+          OCaml bindings for
+          the <a href="http://www.gnu.org/software/gsasl/">GNU SASL
+            library</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/tiger-interp">tiger-interp</a>,
+          an interpreter for
+          the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
+          programming language.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/tiger2ml">tiger2ml</a>,
+          a source-to-source translator from
+          the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
+          programming language to OCaml.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/llvm-tiger">llvm-tiger</a>, a
+          compiler for
+          the <a href="https://www.cs.princeton.edu/~appel/modern/">Tiger</a>
+          programming langauge targeting <a href="http://llvm.org">LLVM</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ppx_ocamllex">ppx_ocamllex</a>,
+          an experimental ppx preprocessor that allows to
+          define <a href="http://caml.inria.fr/pub/docs/manual-ocaml-4.00/manual026.html#toc105">ocamllex</a>
+          lexers directly inside OCaml programs.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-macaroons">ocaml-macaroons</a>,
+          an OCaml implementation
+          of <a href="http://research.google.com/pubs/pub41892.html">Macaroons</a>.
+        </li>
+
+      </ul>
+
+      <h2>Attic</h2>
+
+      <ul>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-graphics-osx">ocaml-graphics-osx</a>,
+          a drop-in replacement for the OCaml Graphics module running under
+          OS X/Cocoa.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/tortuga">tortuga</a>,
+          a <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)">Logo</a>
+          implementation in OCaml.  Dynamic binding for variables but static
+          binding for functions.  Functorizes over the concrete graphical
+          backend.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/c0-jvm">c0-jvm</a>, a compiler from
+          the <a href="http://c0.typesafety.net">C0</a> programming language
+          to <a href="https://docs.oracle.com/javase/specs/jvms/se8/html/index.html">JVM
+          bytecode</a>.  It is able to compile and run some simple straight line
+          programs (no control flow, complex data structures or functions).
+          Supports source-level debug information.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/gen_google_api">gen_google_api</a>,
+          an OCaml binding generator
+          for <a href="https://developers.google.com/apis-explorer">Google
+            APIs</a> based on Google API
+          <a href="https://developers.google.com/discovery/">Discovery
+            Service</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/bitstring-ppx">bitstring-ppx</a>, a
+          ppx port of
+          the <a href="https://code.google.com/p/bitstring/">ocaml-bitstring</a>
+          library.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-libedit">ocaml-libedit</a>,
+          OCaml bindings
+          for <a href="http://thrysoee.dk/editline/">editline</a> library
+          (previously libedit).
+        </li>
+
+        <li id="ocaml-utp">
+          <a href="https://github.com/nojb/ocaml-utp">ocaml-utp</a>, OCaml
+          bindings for BitTorrent
+          Inc.'s <a href="https://github.com/bittorrent/libutp">libutp</a>
+          library using <a href="http://ocsigen.org/lwt/">Lwt</a>. Intended to
+          be used with <a href="#ocaml-bt">ocaml-bt</a>.
+        </li>
+
+        <li id="ocaml-dht">
+          <a href="https://github.com/nojb/ocaml-dht">ocaml-dht</a>, OCaml
+          bindings for <a href="https://github.com/jech/dht">libdht</a>.
+          Intended to be used with <a href="#ocaml-bt">ocaml-bt</a>.
+        </li>
+
+        <li id="ocaml-bt">
+          <a href="https://github.com/nojb/ocaml-bt">ocaml-bt</a>, OCaml
+          implementation of
+          the <a href="https://wiki.theory.org/BitTorrentSpecification">BitTorrent
+          protocol</a>. UTP and DHT support
+          via <a href="#ocaml-utp">ocaml-utp</a>
+          and <a href="#ocaml-dht">ocaml-dht</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/llvm-min-caml">llvm-min-caml</a>,
+          an <a href="http://llvm.org">LLVM</a> backend for
+          the <a href="http://esumii.github.io/min-caml/index-e.html">min-caml</a>
+          compiler.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/scheme2ml">scheme2ml</a>, a
+          source-to-source translator
+          from <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a>
+          to OCaml.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/llvm-bf">llvm-bf</a>,
+          a compiler
+          from <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainf*ck</a>
+          to <a href="http://llvm.org">LLVM</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/mips-o32-ocamlopt">mips-o32-ocamlopt</a>,
+          a backend for the OCaml native compiler targeting the MIPS 32-bit
+          architecture with the o32 ABI.
+        </li>
+
+        <!-- <dt>herebedragons</dt> -->
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-ircd">ocaml-ircd</a>, an overly
+          simplistic IRC server. Intended as a test-bed
+          for <a href="https://mirage.io">Mirage</a> technologies.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ppx_fbt_trace">ppx_fbt_trace</a>,
+          a ppx version
+          of <a href="https://github.com/avsm/ocaml-fbt-trace">pa_fbt_trace</a>.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/staged-ocs">staged-ocs</a>,
+          a <a href="http://okmij.org/ftp/ML/MetaOCaml.html">MetaOCaml</a>-staged
+          interpreter
+          of <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">R5RS
+            Scheme</a>.  Based on
+          the <a href="https://github.com/felix-lang/ocs">ocs</a> Scheme
+          interpreter.
+        </li>
+
+        <li>
+          <a href="https://github.com/nojb/ocaml-maildir">ocaml-maildir</a>,
+          OCaml library to interact
+          with <a href="https://en.wikipedia.org/wiki/Maildir">Maildir</a>.
+        </li>
+
+      </ul>
+    </div>
     <!-- <dt><a href="https://github.com/nojb/ocaml-c0">ocaml-c0</a></dt> -->
-    <!-- <dt>llvm-pure-tiger ?</dt> -->
   </body>
 </html>
