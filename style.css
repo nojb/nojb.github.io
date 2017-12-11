@@ -11,15 +11,9 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6 {
-  text-align:left
+  text-align:left;
+  color: #A61919;
 }
-
-/* img { */
-/*   display:block; */
-/*   max-width:100%; */
-/*   height:auto; */
-/*   margin:auto */
-/* } */
 
 code,pre {
   font-family:Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -30,9 +24,12 @@ pre {
   padding:1.2em
 }
 
+li {
+  margin: 0.5em 0;
+}
+
 a:link {
   color:#000;
-  text-decoration:underline
 }
 
 a:visited {
@@ -41,21 +38,6 @@ a:visited {
 
 a:hover {
   color:#fff;
-  background-color:#000;
+  background-color:#A61919;
   text-decoration:none
 }
-
-/* hr { */
-/*   margin:25px auto 25px */
-/* } */
-
-/* table { */
-/*   width:100%; */
-/*   border-collapse:collapse; */
-/*   margin:1.75rem 0 */
-/* } */
-
-/* table,td,th { */
-/*   border:1px solid black; */
-/*   padding:10px */
-/* } */
