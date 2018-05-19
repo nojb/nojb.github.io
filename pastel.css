@@ -1,0 +1,17 @@
+body {
+  color: #400;
+  background-color: #f4eed9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #400;
+  margin-top: 4rem;
+}
+
+a:link {
+  color: #a00;
+}
+
+a:visited {
+  color: #a00;
+}

@@ -1,0 +1,16 @@
+body {
+  color: #93979e;
+  background-color: #26282d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
