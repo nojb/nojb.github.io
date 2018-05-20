@@ -1,11 +1,12 @@
-body {
-  font-family: "Computer Modern Serif", serif;
-  /* font-size: 1.1rem; */
+html {
+  font-size: 18px;
 }
 
-.main {
-  max-width: 650px;
-  margin: 50px auto 50px;
+body {
+  font-family: "Computer Modern Serif", serif;
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
