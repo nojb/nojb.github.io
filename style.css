@@ -3,10 +3,16 @@ html {
 }
 
 body {
-  font-family: "Computer Modern Serif", serif;
+  /* font-family: "Computer Modern Serif", serif; */
+  font-family: "Inter-UI", sans-serif;
+  line-height: 1.5;
   max-width: 38rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +24,12 @@ code, pre, kbd {
 
 pre {
   padding: 1.2rem
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
