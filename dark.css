@@ -4,13 +4,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #ebcb8b;
+}
+
+strong {
   color: #fff;
 }
 
-a:link {
+a:link, a:visited {
   color: #fff;
 }
 
-a:visited {
-  color: #fff;
+a:hover, a:visited:hover {
+  color: #ebcb8b;
 }

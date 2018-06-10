@@ -1,13 +1,22 @@
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 body {
-  font-family: "Computer Modern Serif", serif;
-  max-width: 38rem;
+  font-family: "Inter UI", serif;
+  max-width: 650px;
+  line-height: 1.5;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  margin-bottom: 10rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 code, pre, kbd {
-  font-family: "Computer Modern Typewriter", monospace;
+  font-family: "Inter UI", serif;
 }
 
 pre {
@@ -34,6 +43,7 @@ li {
 
 a:link {
   text-decoration: none;
+  /* font-style: italic; */
 }
 
 a:visited {
