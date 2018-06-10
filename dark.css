@@ -4,7 +4,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ebcb8b;
+  color: #fff;
+  /* color: #ebcb8b; */
 }
 
 strong {
@@ -12,9 +13,11 @@ strong {
 }
 
 a:link, a:visited {
+  /* color: #93979e; */
   color: #fff;
 }
 
 a:hover, a:visited:hover {
-  color: #ebcb8b;
+  /* color: #ebcb8b; */
+  color: #fff;
 }
