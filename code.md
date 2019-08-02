@@ -28,7 +28,7 @@ in OCaml and hosted on [Github](https://github.com/nojb).
   macOS
 
 - [matis2github](https://github.com/nojb/mantis2github) --- migrated the OCaml
-  bugtrakcer (18 years worth of data) to GitHub issues
+  bugtracker (18 years worth of data) to GitHub issues
 
 - [omd](https://github.com/ocaml/omd) --- maintainer since Nov 2018
 
