@@ -2,7 +2,7 @@
 layout: page
 ---
 
-![](/static/me.png){:style="height: 8rem; float: left; padding-right: 1rem;"}
+![](/static/me.png){:style="height: 8rem; align; margin: auto; display: block;"}
 
 My name is **Nicolás Ojeda Bär**. I am a mathematician based in Paris working at
 [LexiFi](https://www.lexifi.com).
