@@ -24,16 +24,16 @@ in OCaml and hosted on [Github](https://github.com/nojb).
 - [mirage-tcpip](https://github.com/mirage/mirage-tcpip) --- implemented IPv6
   for the [MirageOS] TCP/IP stack
 
-- [llpp](https://github.com/nojb/llpp) --- ported the `llpp` PDF viewer to
-  macOS
+- [llpp](https://github.com/moosotc/llpp) ---
+  [ported](https://github.com/moosotc/llpp/pull/40) the PDF viewer to macOS
 
 - [matis2github](https://github.com/nojb/mantis2github) --- migrated the OCaml
   bugtracker (18 years worth of data) to GitHub issues
 
 - [omd](https://github.com/ocaml/omd) --- maintainer since Nov 2018
 
-- [caml-list](https://inbox.ocaml.org/caml-list) --- and deployed a mirror
-  using [public-inbox]
+- [caml-list](https://inbox.ocaml.org/caml-list) --- built a mirror using
+  [public-inbox]
 
 - [cmt\_annot](https://github.com/LexiFi/cmt_annot) --- reimplement `.annot`
   functionality using `.cmt` files
@@ -47,7 +47,7 @@ in OCaml and hosted on [Github](https://github.com/nojb).
   protocol in pure OCaml
 
 - [ocaml-gccjit](https://github.com/nojb/ocaml-gccjit) --- OCaml bindings for
-  the `libgccjit` library
+  the [libgccjit] library
 
 - [ocaml-gsasl](https://github.com/nojb/ocaml-gsasl) --- OCaml bindings for
   the GNU SASL library
@@ -61,7 +61,7 @@ in OCaml and hosted on [Github](https://github.com/nojb).
 - [llvm-tiger](https://github.com/nojb/llvm-tiger) --- a compiler for [Tiger]
   targeting LLVM
 
-- [ppx\_ocamllex](https://github.com/nojb/ppx_ocamllex) --- define `ocamllex`
+- [ppx\_ocamllex](https://github.com/nojb/ppx_ocamllex) --- define [ocamllex]
   lexers directly inside OCaml programs
 
 - [ocaml-macaroons](https://github.com/nojb/ocaml-macaroons) --- an OCaml
@@ -81,21 +81,12 @@ in OCaml and hosted on [Github](https://github.com/nojb).
 - [bigstring-ppx](https://github.com/nojb/bitstring-ppx) --- ppx port of the
   [ocaml-bigstring] library
 
-<!-- <li> -->
-<!--   <a href="https://github.com/nojb/ocaml-utp"><kbd>ocaml-utp</kbd></a> &mdash; -->
-<!--   OCaml bindings for BitTorrent Inc.'s -->
-<!--   <a href="https://github.com/bittorrent/libutp"><kbd>libutp</kbd></a> library -->
-<!-- </li> -->
+- [ocaml-utp](https://github.com/nojb/ocaml-utp) --- OCaml bindings for [libutp]
 
-<!-- <li> -->
-<!--   <a href="https://github.com/nojb/ocaml-dht"><kbd>ocaml-dht</kbd></a> &mdash; OCaml -->
-<!--   bindings for <a href="https://github.com/jech/dht"><kbd>libdht</kbd></a> -->
-<!-- </li> -->
+- [ocaml-dht](https://github.com/nojb/ocaml-dht) --- OCaml bindings for [libdht]
 
-<!-- <li> -->
-<!--   <a href="https://github.com/nojb/ocaml-bt"><kbd>ocaml-bt</kbd></a> &mdash; -->
-<!--   OCaml implementation of the BitTorrent protocol -->
-<!-- </li> -->
+- [ocaml-bt](https://github.com/nojb/ocaml-bt) --- OCaml implementation of the
+  BitTorrent protocol
 
 - [llvm-min-caml](https://github.com/nojb/llvm-min-caml) --- an LLVM backend for
   the [min-caml](http://esumii.github.io/min-caml/index-e.html) compiler
@@ -122,3 +113,7 @@ in OCaml and hosted on [Github](https://github.com/nojb).
 [MirageOS]: https://mirage.io
 [public-inbox]: https://public-inbox.org/README
 [metaocaml]: http://okmij.org/ftp/ML/MetaOCaml.html
+[libgccjit]: https://gcc.gnu.org/wiki/JIT
+[ocamllex]: https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html
+[libutp]: https://github.com/bittorrent/libutp
+[libdht]: https://github.com/jech/dht
