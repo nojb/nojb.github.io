@@ -68,12 +68,12 @@ in OCaml and hosted on [Github](https://github.com/nojb).
   implementation of [Macaroons]
 
 - [ocaml-graphics-osx](https://github.com/nojb/ocaml-graphics-osx) --- a port of
-  the OCaml Graphics module to Cocoa
+  the OCaml [graphics](https://github.com/ocaml/graphics) library to Cocoa
 
 - [tortuga](https://github.com/nojb/tortuga) --- a Logo implementation
 
-- [c0-jvm](https://github.com/nojb/c0-jvm) --- a compiler from the [C0]
-  programming language to JVM bytecode
+- [c0-jvm](https://github.com/nojb/c0-jvm) --- compile the [C0] programming
+  language to JVM bytecode
 
 - [gen\_google\_api](https://github.com/nojb/gen_google_api) --- an OCaml
   binding generator for Google APIs
