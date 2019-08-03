@@ -38,7 +38,7 @@ in OCaml and hosted on [Github](https://github.com/nojb).
 - [cmt\_annot](https://github.com/LexiFi/cmt_annot) --- reimplement `.annot`
   functionality using `.cmt` files
 
-#### experiments, unfinished & unmaintained projects
+### experiments, unfinished & unmaintained projects
 
 - [ocaml-explorer](https://nojb.github.io/ocaml-explorer) --- experiment
   running the OCaml native-code compiler in the browser
