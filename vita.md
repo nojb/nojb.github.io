@@ -24,7 +24,6 @@ permalink: /vita/
 ### Programming experience
 
 - Languages: OCaml, Scheme, C/C++, C#
-
 - GitHub: [@nojb](https://github.com/nojb)
 
 #### Sample projects
