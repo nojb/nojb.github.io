@@ -43,5 +43,6 @@ de Buenos Aires.
 
 ### Other information
 
-- Languages: english, spanish and french
+- Languages: English, Spanish and French
 - Citizenship: Argentina
+- Born: January 3, 1983

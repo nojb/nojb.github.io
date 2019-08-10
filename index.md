@@ -15,4 +15,5 @@ student at [Harvard University](http://www.math.harvard.edu), the [University of
 Chicago](https://math.uchicago.edu), and the [Universidad de Buenos
 Aires.](http://www.dm.uba.ar)
 
-I am interested in [programming](/code/) and [mathematics](/math/).
+I am interested in [programming](/code/) and [mathematics](/math/). You can also
+consult my [vita](/vita/).
