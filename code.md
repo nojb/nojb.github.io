@@ -1,119 +1,33 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
+layout: default
 title: Code
 permalink: /code/
 ---
 
-I am interested in programming languages in a broad sense:
-compilers, interpreters, network protocols, virtual machines, emulation,
-GUI programming. Most of my code is written
-in OCaml and hosted on [Github](https://github.com/nojb).
+I am interested in compilers, interpreters, network protocols, virtual machines,
+emulation, GUI programming. Most of my code is written in OCaml and hosted on
+[GitHub](https://github.com/nojb).
 
-- [ocaml](https://github.com/ocaml/ocaml/pulls?utf8=%E2%9C%93&q=author%3Anojb%20)
-  --- core developer since Nov 2017
+# Currently working on
 
-- [riscv-ocaml](https://github.com/nojb/riscv-ocaml) --- ported the full OCaml
-  system to the RISC-V architecture. It will be eventually upstreamed.
+- [OCaml:](https://github.com/ocaml/ocaml/pulls?utf8=%E2%9C%93&q=author%3Anojb%20) core developer since Nov 2017.
+- [OCaml/RISC-V:](https://github.com/nojb/riscv-ocaml) RISC-V native-code backend for OCaml system.
+- [Dune:](https://github.com/ocaml/dune/pulls?utf8=%E2%9C%93&q=author%3Anojb%20)
+  part of developer team since Oct 2018.
+- [OMD:](https://github.com/ocaml/omd) maintainer since Nov 2018.
 
-- [dune](https://github.com/ocaml/dune/pulls?utf8=%E2%9C%93&q=author%3Anojb%20)
-  --- part of developer team since Oct 2018
+# Past projects
 
-- [mirage-tcpip](https://github.com/mirage/mirage-tcpip) --- implemented IPv6
-  for the [MirageOS] TCP/IP stack
+- [Mirage TCP/IP:](https://github.com/mirage/mirage-tcpip) implemented IPv6
+  for the [MirageOS] TCP/IP stack.
+- [Mantis → GitHub:](https://github.com/nojb/mantis2github) migrated the OCaml
+  bugtracker (18 years worth of Mantis issues) to GitHub.
+- [llpp:](https://github.com/moosotc/llpp) ported to macOS.
+- [caml-list:](https://inbox.ocaml.org/caml-list) built a mirror using
+  [public-inbox].
+- [cmt\_annot:](https://github.com/LexiFi/cmt_annot) reimplement `.annot`
+  functionality using `.cmt` files.
 
-- [llpp](https://github.com/moosotc/llpp) ---
-  [ported](https://github.com/moosotc/llpp/pull/40) the PDF viewer to macOS
+# Unmaintained projects
 
-- [matis2github](https://github.com/nojb/mantis2github) --- migrated the OCaml
-  bugtracker (18 years worth of data) to GitHub issues
-
-- [omd](https://github.com/ocaml/omd) --- maintainer since Nov 2018
-
-- [caml-list](https://inbox.ocaml.org/caml-list) --- built a mirror using
-  [public-inbox]
-
-- [cmt\_annot](https://github.com/LexiFi/cmt_annot) --- reimplement `.annot`
-  functionality using `.cmt` files
-
-### experiments, unfinished & unmaintained projects
-
-- [ocaml-explorer](https://nojb.github.io/ocaml-explorer) --- experiment
-  running the OCaml native-code compiler in the browser
-
-- [ocaml-imap](https://github.com/nojb/ocaml-imap) --- an IMAPrev1 client
-  protocol in pure OCaml
-
-- [ocaml-gccjit](https://github.com/nojb/ocaml-gccjit) --- OCaml bindings for
-  the [libgccjit] library
-
-- [ocaml-gsasl](https://github.com/nojb/ocaml-gsasl) --- OCaml bindings for
-  the GNU SASL library
-
-- [tiger-interp](https://github.com/nojb/tiger-interp) --- an interpreter for
-  [Tiger]
-
-- [tiger2ml](https://github.com/nojb/tiger2ml) --- a source-to-source translator
-  from [Tiger] to OCaml
-
-- [llvm-tiger](https://github.com/nojb/llvm-tiger) --- a compiler for [Tiger]
-  targeting LLVM
-
-- [ppx\_ocamllex](https://github.com/nojb/ppx_ocamllex) --- define [ocamllex]
-  lexers directly inside OCaml programs
-
-- [ocaml-macaroons](https://github.com/nojb/ocaml-macaroons) --- an OCaml
-  implementation of [Macaroons]
-
-- [ocaml-graphics-osx](https://github.com/nojb/ocaml-graphics-osx) --- a port of
-  the OCaml [graphics](https://github.com/ocaml/graphics) library to Cocoa
-
-- [tortuga](https://github.com/nojb/tortuga) --- a Logo implementation
-
-- [c0-jvm](https://github.com/nojb/c0-jvm) --- compile the [C0] programming
-  language to JVM bytecode
-
-- [gen\_google\_api](https://github.com/nojb/gen_google_api) --- an OCaml
-  binding generator for Google APIs
-
-- [bigstring-ppx](https://github.com/nojb/bitstring-ppx) --- ppx port of the
-  [ocaml-bigstring] library
-
-- [ocaml-utp](https://github.com/nojb/ocaml-utp) --- OCaml bindings for [libutp]
-
-- [ocaml-dht](https://github.com/nojb/ocaml-dht) --- OCaml bindings for [libdht]
-
-- [ocaml-bt](https://github.com/nojb/ocaml-bt) --- OCaml implementation of the
-  BitTorrent protocol
-
-- [llvm-min-caml](https://github.com/nojb/llvm-min-caml) --- an LLVM backend for
-  the [min-caml](http://esumii.github.io/min-caml/index-e.html) compiler
-
-- [scheme2ml](https://github.com/nojb/scheme2ml) --- a source-to-source
-  translator from Scheme to OCaml
-
-- [llvm-bf](https://github.com/nojb/llvm-bf) --- a compiler from Brainf*ck to
-  LLVM
-
-- [ppx\_fbt\_trace](https://github.com/nojb/ppx_fbt_trace) --- a ppx port of of
-  [pa\_fbt\_trace](https://github.com/avsm/ocaml-fbt-trace)
-
-- [staged-ocs](https://github.com/nojb/staged-ocs) --- a [metaocaml]-staged
-  interpreter of R5RS Scheme
-
-- [ocaml-maildir](https://github.com/nojb/ocaml-maildir) --- OCaml library to
-  interact with Maildir
-
-[ocaml-bigstring]: https://code.google.com/p/bitstring/
-[Tiger]: https://www.cs.princeton.edu/~appel/modern/
-[Macaroons]: http://research.google.com/pubs/pub41892.html
-[C0]: http://c0.typesafety.net
-[MirageOS]: https://mirage.io
-[public-inbox]: https://public-inbox.org/README
-[metaocaml]: http://okmij.org/ftp/ML/MetaOCaml.html
-[libgccjit]: https://gcc.gnu.org/wiki/JIT
-[ocamllex]: https://caml.inria.fr/pub/docs/manual-ocaml/lexyacc.html
-[libutp]: https://github.com/bittorrent/libutp
-[libdht]: https://github.com/jech/dht
+See [here.](/code/unmaintained)
