@@ -17,3 +17,10 @@ theory.](https://en.wikipedia.org/wiki/P-adic_Hodge_theory)
   notes from a course given in 2013 at the University of Cambridge.  The main
   objective was to prove that a strongly divisible module over an unramified
   base was admissible in the sense of Fontaine by *de Rham* methods.
+
+<h1>Blog Posts</h1>
+<ul>
+  {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
