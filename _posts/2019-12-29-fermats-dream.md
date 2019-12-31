@@ -43,23 +43,28 @@ Mordell's theorem on elliptic curves. While we will not touch upon
 these on this post, I give a few pointers for those readers that want
 to go further in the last section.
 
-Finally, before we get going, do not hesitate to comment at the bottom
-of the post, even if
+Finally, before we get going, do not hesitate to comment at the bottom of the
+post, and tell me if the post was interesting (or not), useful (or not), what
+would you like to read about, etc. I will be happy to take your input into
+account in future installments!
+
+Nothing of what I will write is original.  My role : collecting the simplest
+proofs I am able to find, bringing the simplicity of arguments to the fore, and
+making clear what is a "black box".
 
 # September 1994
 
 On this date Andrew Wiles [proved](/static/wiles1995.pdf) finished the
 proof of Fermat's Last Theorem, which states:
 
-> *For $$n$$ greater than or equal to 3, there exist no positive integers $$x$$,
-> $$y$$, $$z$$ satisfying the equation $$x^n + y^n = z^n.$$*
+**Theorem (FLT).** *Let $$n \geq 3$$, and let $$x$$, $$y$$, and $$z$$ be integers
+such that $$x^n + y^n = z^n$$. Then $$xyz = 0$$.*
 
-We will refer to this statement by $${\rm FLT}_n$$. Fermat's Last
-Theorem had resisted a proof for more than 350 years.  Fermat
-(1601--65) wrote his "Last Theorem" in 1630 in the margin of a book he
-owned. Fermat also left the phrase "I found a remarkable proof for
-this fact, but this margin is too narrow to write it down." This proof
-has never been discovered (if it ever existed).
+We will refer to this statement by $${\rm FLT}_n$$. Fermat's Last Theorem had
+resisted for more than 350 years.  Fermat (1601--65) wrote his "Last Theorem" in
+1630 in the margin of a book he owned. Fermat also left the phrase "I found a
+remarkable proof for this fact, but this margin is too narrow to write it down."
+This proof has never been discovered (if it ever existed).
 
 Note that $${\rm FLT}_2$$ is certainly not true; in fact the equation
 for $$n = 2$$ has plenty of solutions, as follows from the Pythagorean
@@ -114,7 +119,7 @@ our understanding of Pythagorean triples; it uses the technique of
 "infinite descent" that was introduced by Fermat for this very
 problem. The idea is that, given a solution $$(x, y, z)$$ of this equation,
 we will produce a *new* solution that has a smaller $$z$$. Since these are positive integers,
-and the process can be repeated *ad infinitum*, there is 
+and the process can be repeated *ad infinitum*, there is
 and let us reach a contradiction.
 
 # The proof of $${\rm FLT}_3$$
@@ -126,7 +131,7 @@ unity.
 **Proposition.** *There is no solution $$(x, y, z)$$ to $$x^3 + y^3 = uz^3$$
 in $$A$$, where $$u$$ is a unit in $$A$$.*
 
-We can assume that 
+We can assume that
 
 # To go further
 
