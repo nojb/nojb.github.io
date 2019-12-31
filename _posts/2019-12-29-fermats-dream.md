@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FLT0: Fermat's Dream"
+title: "Fermat's Dream"
 tags: FLT
 ---
 
@@ -82,6 +82,24 @@ next section we will be able to quickly deal with $${\rm FLT}_4$$ in
 the last section.
 
 # Pythagorean triples
+
+We will start by describing the solutions of Fermat's equation for
+$$n = 2$$. The result is the following:
+
+> *Let $$x$$, $$y$$, $$z$$ be relative prime integers such that
+$$x^2 + y^2 = z^2$$. Then (up to switching $$x$$ and $$y$$) there exists
+relative prime integers $$u$$ and $$v$$ such that*
+>
+> $$
+x = u^2 - v^2,\quad y = 2uv\quad\text{and}\quad z = u^2+v^2.
+$$
+
+The first observation is that for a solution $$(x, y, z)$$ to be
+relatively prime is equivalent to them being pairwise relatively
+prime. The second observation is that any triple of numbers of the stated form
+do solve the equation: $$(u^2 - v^2)^2 + (2uv)^2 = (u^2 + v^2)^2$$.
+
+Let us see
 
 It is well-known that there are many solutions to $$x^2 + y^2 = z^2$$
 in positive integers, the so-called *Pytagorean triples*. Examples are
